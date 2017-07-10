@@ -30,12 +30,14 @@ class MainViewController: UIViewController {
     }
     
     // MARK: - IBActions
-    @IBAction func nextButtonPressed(_ sender: Any) {
+    @IBAction func signupButtonPressed(_ sender: Any) {
         let pageNumber = Int(collectionView.contentOffset.x / collectionView.frame.size.width)
         let cgPoint = CGPoint(x: CGFloat(pageNumber + 1) * collectionView.bounds.size.width, y: 0)
         
         // keep moving if user ISN'T on the last page
-        if checkOnboardingPage(current: pageNumber, target: arrayOnboardingItems.count - 1) == false {
+        if checkOnboardingPage(current: pageNumber, target: arrayOnboardingItems.count - 1) {
+            performSegue(withIdentifier: "showSignUp", sender: self)
+        } else {
             collectionView.setContentOffset(cgPoint, animated: true)
         }
     }

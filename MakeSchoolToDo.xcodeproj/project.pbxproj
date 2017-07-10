@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A506E2C3D8FFC88320231599 /* Pods_MakeSchoolToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACCF3514E3ECC0C982DA54 /* Pods_MakeSchoolToDo.framework */; };
 		BA5091C51F13CAC0008F496D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5091C41F13CAC0008F496D /* AppDelegate.swift */; };
-		BA5091C71F13CAC0008F496D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5091C61F13CAC0008F496D /* ViewController.swift */; };
 		BA5091CA1F13CAC0008F496D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5091C81F13CAC0008F496D /* Main.storyboard */; };
 		BA5091CC1F13CAC0008F496D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5091CB1F13CAC0008F496D /* Assets.xcassets */; };
 		BA5091CF1F13CAC0008F496D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5091CD1F13CAC0008F496D /* LaunchScreen.storyboard */; };
+		BA5091D81F13D089008F496D /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5091D61F13D089008F496D /* OnboardingCollectionViewCell.swift */; };
+		BA5091D91F13D089008F496D /* OnboardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5091D71F13D089008F496D /* OnboardingCollectionViewCell.xib */; };
+		BA5091DC1F13D49D008F496D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5091DB1F13D49D008F496D /* MainViewController.swift */; };
+		BA5091DE1F13F18E008F496D /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5091DD1F13F18E008F496D /* OnboardingItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B48E8AF9BF4C776E620A3F5 /* Pods-MakeSchoolToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeSchoolToDo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeSchoolToDo/Pods-MakeSchoolToDo.release.xcconfig"; sourceTree = "<group>"; };
+		A49410D3D47FA3253C39A578 /* Pods-MakeSchoolToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeSchoolToDo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeSchoolToDo/Pods-MakeSchoolToDo.debug.xcconfig"; sourceTree = "<group>"; };
 		BA5091C11F13CAC0008F496D /* MakeSchoolToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeSchoolToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5091C41F13CAC0008F496D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA5091C61F13CAC0008F496D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA5091C91F13CAC0008F496D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA5091CB1F13CAC0008F496D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA5091CE1F13CAC0008F496D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA5091D01F13CAC0008F496D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5091D61F13D089008F496D /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA5091D71F13D089008F496D /* OnboardingCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingCollectionViewCell.xib; sourceTree = "<group>"; };
+		BA5091DB1F13D49D008F496D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BA5091DD1F13F18E008F496D /* OnboardingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
+		E1ACCF3514E3ECC0C982DA54 /* Pods_MakeSchoolToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeSchoolToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A506E2C3D8FFC88320231599 /* Pods_MakeSchoolToDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02ADDF9376863DAA53D2E44F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A49410D3D47FA3253C39A578 /* Pods-MakeSchoolToDo.debug.xcconfig */,
+				5B48E8AF9BF4C776E620A3F5 /* Pods-MakeSchoolToDo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38855F27DF5B48F318C1CFDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1ACCF3514E3ECC0C982DA54 /* Pods_MakeSchoolToDo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA5091B81F13CAC0008F496D = {
 			isa = PBXGroup;
 			children = (
 				BA5091C31F13CAC0008F496D /* MakeSchoolToDo */,
 				BA5091C21F13CAC0008F496D /* Products */,
+				02ADDF9376863DAA53D2E44F /* Pods */,
+				38855F27DF5B48F318C1CFDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +85,24 @@
 			isa = PBXGroup;
 			children = (
 				BA5091C41F13CAC0008F496D /* AppDelegate.swift */,
-				BA5091C61F13CAC0008F496D /* ViewController.swift */,
+				BA5091DB1F13D49D008F496D /* MainViewController.swift */,
+				BA5091DD1F13F18E008F496D /* OnboardingItem.swift */,
 				BA5091C81F13CAC0008F496D /* Main.storyboard */,
+				BA5091DA1F13D0A2008F496D /* Views */,
 				BA5091CB1F13CAC0008F496D /* Assets.xcassets */,
 				BA5091CD1F13CAC0008F496D /* LaunchScreen.storyboard */,
 				BA5091D01F13CAC0008F496D /* Info.plist */,
 			);
 			path = MakeSchoolToDo;
+			sourceTree = "<group>";
+		};
+		BA5091DA1F13D0A2008F496D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA5091D61F13D089008F496D /* OnboardingCollectionViewCell.swift */,
+				BA5091D71F13D089008F496D /* OnboardingCollectionViewCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA5091D31F13CAC0008F496D /* Build configuration list for PBXNativeTarget "MakeSchoolToDo" */;
 			buildPhases = (
+				2A469649BFB49D583E9617D8 /* [CP] Check Pods Manifest.lock */,
 				BA5091BD1F13CAC0008F496D /* Sources */,
 				BA5091BE1F13CAC0008F496D /* Frameworks */,
 				BA5091BF1F13CAC0008F496D /* Resources */,
+				70DB42F427C848DAF0F9E73E /* [CP] Embed Pods Frameworks */,
+				D6F329940E852597CE56D348 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,19 +170,70 @@
 			files = (
 				BA5091CF1F13CAC0008F496D /* LaunchScreen.storyboard in Resources */,
 				BA5091CC1F13CAC0008F496D /* Assets.xcassets in Resources */,
+				BA5091D91F13D089008F496D /* OnboardingCollectionViewCell.xib in Resources */,
 				BA5091CA1F13CAC0008F496D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A469649BFB49D583E9617D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70DB42F427C848DAF0F9E73E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeSchoolToDo/Pods-MakeSchoolToDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F329940E852597CE56D348 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeSchoolToDo/Pods-MakeSchoolToDo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA5091BD1F13CAC0008F496D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA5091C71F13CAC0008F496D /* ViewController.swift in Sources */,
+				BA5091DC1F13D49D008F496D /* MainViewController.swift in Sources */,
+				BA5091DE1F13F18E008F496D /* OnboardingItem.swift in Sources */,
 				BA5091C51F13CAC0008F496D /* AppDelegate.swift in Sources */,
+				BA5091D81F13D089008F496D /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +354,7 @@
 		};
 		BA5091D41F13CAC0008F496D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49410D3D47FA3253C39A578 /* Pods-MakeSchoolToDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C9L43P9G27;
@@ -272,6 +368,7 @@
 		};
 		BA5091D51F13CAC0008F496D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B48E8AF9BF4C776E620A3F5 /* Pods-MakeSchoolToDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C9L43P9G27;
@@ -302,6 +399,7 @@
 				BA5091D51F13CAC0008F496D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
